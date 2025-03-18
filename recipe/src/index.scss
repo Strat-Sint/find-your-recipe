@@ -357,7 +357,7 @@ button:focus-visible {
       }
     
       & .recCard{
-        margin-top: 5rem;
+        margin-top: 15rem;
     
         & .recInside{
           display: flex;
@@ -378,7 +378,7 @@ button:focus-visible {
     
         & .instructions{
           font-size: 0.7rem;
-          width: 250px;
+          max-width: 250px;
           
         }
     
