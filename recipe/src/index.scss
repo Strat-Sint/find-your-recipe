@@ -346,15 +346,10 @@ button:focus-visible {
   }
 
   .singleContainer{
+    background-attachment: fixed;
+    height: 120vh;
     & .singleRecipe{
     
-    
-      & .recipeImg{
-        height: 200px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 10%;
-      }
     
       & .recCard{
         margin-top: 15rem;
@@ -363,6 +358,11 @@ button:focus-visible {
           display: flex;
           flex-direction: column;
           gap: 1rem;
+
+          & .recipeImg{
+            height: 200px;
+            width: 300px;
+          }
           
     
           & .ingridients{
@@ -371,14 +371,14 @@ button:focus-visible {
             & .liIngr{
               display: grid;
               grid-template-columns: 1fr 1fr 1fr;
-              font-size: 0.7rem;
+              font-size: 0.9rem;
             }
           }
         }
     
         & .instructions{
-          font-size: 0.7rem;
-          max-width: 250px;
+          font-size: 0.8rem;
+          max-width: 300px;
           
         }
     
@@ -388,5 +388,7 @@ button:focus-visible {
         }
       }
     }
+
+  }
   
 }
