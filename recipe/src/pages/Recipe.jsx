@@ -23,7 +23,7 @@ function Recipe() {
   const isOver = () => {
     if(recipeID > 30) {
       return true
-  } else {return false}
+  }
   }
 
   return (
