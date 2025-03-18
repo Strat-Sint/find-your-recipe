@@ -345,47 +345,48 @@ button:focus-visible {
     }
   }
 
-  .singleRecipe{
+  .singleContainer{
+    & .singleRecipe{
     
     
-    & .recipeImg{
-      height: 200px;
-      width: 300px;
-      object-fit: cover;
-      border-radius: 10%;
-    }
-  
-    & .recCard{
-     
-  
-      & .recInside{
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        
-  
-        & .ingridients{
-          font-size: 0.9rem;
-  
-          & .liIngr{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+      & .recipeImg{
+        height: 200px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 10%;
+      }
+    
+      & .recCard{
+        margin-top: 5rem;
+    
+        & .recInside{
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          
+    
+          & .ingridients{
             font-size: 0.9rem;
+    
+            & .liIngr{
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr;
+              font-size: 0.9rem;
+            }
           }
         }
-      }
-  
-      & .instructions{
-        font-size: 0.8rem;
-        width: 500px;
-        
-      }
-  
-      & .info{
-        padding-top: 1rem;
-        font-size: 0.8rem;
+    
+        & .instructions{
+          font-size: 0.8rem;
+          width: 300px;
+          
+        }
+    
+        & .info{
+          padding-top: 1rem;
+          font-size: 0.8rem;
+        }
       }
     }
-  }
   
 }
