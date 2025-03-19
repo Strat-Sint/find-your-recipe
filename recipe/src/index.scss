@@ -405,7 +405,7 @@ button:focus-visible {
     
     
       & .recCard{
-        transform: translateY(200px);
+        transform: translateY(20%);
 
         & .recInside{
           
@@ -415,7 +415,8 @@ button:focus-visible {
             & .liIngr{
               display: grid;
               grid-template-columns: 1fr 1fr 1fr;
-              font-size: 0.7rem;
+              font-size: 0.6rem;
+              gap: 1rem;
             }
           }
         }
