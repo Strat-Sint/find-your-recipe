@@ -352,7 +352,7 @@ button:focus-visible {
     
     
       & .recCard{
-        margin-top: 15rem;
+        transform: translateY(110px);
     
         & .recInside{
           display: flex;
@@ -391,4 +391,22 @@ button:focus-visible {
 
   }
   
+}
+
+@media (max-width: 380px){
+  .container{
+    font-size: small;
+  }
+
+  .singleContainer{
+    background-attachment: fixed;
+    height: 150vh;
+    & .singleRecipe{
+    
+    
+      & .recCard{
+        transform: translateY(200px);
+      }
+    }
+  }
 }
