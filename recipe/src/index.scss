@@ -406,6 +406,30 @@ button:focus-visible {
     
       & .recCard{
         transform: translateY(200px);
+
+        & .recInside{
+          
+          & .ingridients{
+            font-size: 0.7rem;
+    
+            & .liIngr{
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr;
+              font-size: 0.7rem;
+            }
+          }
+        }
+    
+        & .instructions{
+          font-size: 0.8rem;
+          max-width: 300px;
+          
+        }
+    
+        & .info{
+          font-size: 0.6rem;
+        }
+          
       }
     }
   }
