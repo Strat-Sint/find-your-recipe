@@ -402,6 +402,7 @@ button:focus-visible {
     background-attachment: fixed;
     height: 150vh;
     & .singleRecipe{
+      min-height: 150vh;
     
     
       & .recCard{
