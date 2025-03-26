@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 
 function NavBar() {
   return (
-    <div className='navbar hide-small'>
+    <div className='navbar'>
       <nav className='nav'>
         <ul>
             <li><Link to = '/'>Home</Link></li>
