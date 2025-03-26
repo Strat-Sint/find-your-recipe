@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import NotFnd from '../components/NotFnd'
-import NavBar from '../components/NavBar'
+import SingleNav from '../components/SingleNav'
 import SingleRecipe from '../components/SingleRecipe'
 
 function Recipe() {
@@ -22,7 +22,7 @@ function Recipe() {
   return (
     <>
       
-      <NavBar />   
+      <SingleNav />   
           
       {isOver() ? <NotFnd/> : <SingleRecipe />  }
       
