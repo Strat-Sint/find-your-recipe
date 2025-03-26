@@ -393,6 +393,12 @@ button:focus-visible {
   
 }
 
+@media (max-width: 500px) {
+  .hide-small {
+    display: none;
+  }
+}
+
 @media (max-width: 390px){
   .container{
     font-size: small;
